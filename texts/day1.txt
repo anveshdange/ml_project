@@ -1,0 +1,7 @@
+Agenda : 
+1. Set up an GitHub Repository 
+    a. New Environment 
+    b. setup.py 
+    c. requirements.txt 
+
+2. Src Folder and build the package 
