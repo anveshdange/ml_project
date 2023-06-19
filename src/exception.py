@@ -1,6 +1,6 @@
 # importing 
 import sys 
-from logger import logging
+from src.logger import logging
 
 # Function to generate custom error message
 def error_message_detail(error, error_detail:sys) :

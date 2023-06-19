@@ -1,9 +1,12 @@
+
 # Imports 
 from setuptools import find_packages, setup 
 from typing import List 
 
+# Constants 
 HYPHEN_E_DOT = '-e .'
 
+# get requirements function 
 def get_requirements(file_path:str) -> List[str] :
     '''
     This function will return a list of requirements
@@ -16,6 +19,7 @@ def get_requirements(file_path:str) -> List[str] :
         if HYPHEN_E_DOT in requirements : requirements.remove(HYPHEN_E_DOT) 
     return requirements 
 
+# setup arguments 
 setup(
     name="ml_project" ,
     version='0.0.1' ,
